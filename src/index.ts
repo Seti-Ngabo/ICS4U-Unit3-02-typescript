@@ -11,7 +11,7 @@ const prompt = promptSync()
 
 /**
  * factorial
- * 
+ *
  * @param {number} accepts a string
  * @returns {number} returns, using recursion
  */
@@ -32,7 +32,7 @@ const userInput = prompt('Enter a number: ')
 try {
   const userNum = parseInt(userInput)
   if (isNaN(userNum)) {
-    console.log('Invalid Input, try again.')
+    console.log('Invalid input, try again.')
   } else {
     console.log(`${userNum}! = ${factorial(userNum)}`)
   }
